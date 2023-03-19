@@ -1,0 +1,54 @@
+body {
+    background: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #ffffff;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+div {
+    background: #a3a3a3;
+    padding: inherit;
+}
+nav{
+    background: #800080;
+    padding: inherit;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+footer{
+    text-align: center;
+}
+
+aside{
+    background: inherit;
+    display: inline-block;
+    vertical-align: top;
+    border: inset;
+}
+
+button {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding:  1%;
+    border-radius: 20%;
+    background: #a3a3a3;
+    width: 16ch;
+    border: outset;
+    color: #ffffff;
+}
+button:active{
+    border: inset;
+}
+
+.header{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.section{
+    border-radius: 10px;
+}
